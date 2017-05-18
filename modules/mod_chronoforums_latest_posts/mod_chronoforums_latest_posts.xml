@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="module" client="site" method="upgrade">
+	<title>Chronoforums latest posts</title>
+	<name>mod_chronoforums_latest_posts</name>
+	<author>ChronoEngine.com</author>
+	<creationDate>May 2014</creationDate>
+	<copyright>Copyright (C) 2006 - 2014 ChronoEngine.com. All rights reserved.</copyright>
+	<license>GPL</license>
+	<authorEmail>webmaster@chronoengine.com</authorEmail>
+	<authorUrl>www.chronoengine.com</authorUrl>
+	<version>V1 RC1</version>
+	<description>Display the latest posts</description>
+	<files>
+		<filename module="mod_chronoforums_latest_posts">mod_chronoforums_latest_posts.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+					<option value="0">Never</option>
+				</field>
+				<field name="count" type="text" default="10" label="Topics count" description="Then umber of latest topics links to be displayed." />
+				<field name="forum_id" type="text" default="" label="Forums IDs" description="Comma separated list of forums ids to load the latest topics from, leave empty to load from all forums!" />
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

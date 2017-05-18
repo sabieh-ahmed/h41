@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="system" method="upgrade">
+    <name>WarpTheme based template installer</name>
+    <description> WT Digital Industry - Industrial Business Joomla Template based on Helix 3 Framework. For general information on template features, troubleshooting and support, visit: warptheme.com        
+    </description>
+    <scriptfile>installer.script.php</scriptfile>
+	
+    <files>
+		<filename plugin="tmp_helix3">installer.script.php</filename>
+    </files>
+    <plugins>
+        <plugin plugin="helix3" group="ajax" />
+        <plugin plugin="helix3" group="system" />
+    </plugins>
+</extension>

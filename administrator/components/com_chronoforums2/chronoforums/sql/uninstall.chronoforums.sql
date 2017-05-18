@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS `#__chronoengine_forums2_forums`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_posts`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_posts_answers`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_posts_attachments`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_posts_reports`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_posts_votes`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_topics`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_topics_favorites`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_topics_featured`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_topics_subscribers`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_topics_tags`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_topics_track`;
+DROP TABLE IF EXISTS `#__chronoengine_forums2_users_profiles`;
+DROP TABLE IF EXISTS `#__chronoengine_pm_discussions`;
+DROP TABLE IF EXISTS `#__chronoengine_pm_discussions_users`;
+DROP TABLE IF EXISTS `#__chronoengine_pm_messages`;

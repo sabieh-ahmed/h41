@@ -1,0 +1,124 @@
+.ui.button.very.compact{
+	padding:0.3em;
+}
+.ui.button.floating.right{
+	float:right;
+}
+.ui.segment.very.slim{
+	padding:0.4em;
+}
+.ui.segment.slim{
+	padding:0.6em;
+}
+.nopadding{
+	padding:0 !important;
+}
+.nomargin{
+	margin:0 !important;
+}
+.ui.menu.very.slim .item{
+	padding:0.5em;
+}
+
+.chronoforums .ui .description .metadata{
+	color: rgba(0, 0, 0, 0.4);
+	display: inline-block;
+	font-size: 0.875em;
+	margin-left: 0.5em;
+}
+.chronoforums .ui .metadata.fluid{
+	display: block;
+	margin-left: 0;
+}
+.chronoforums .ui .description.padded{
+	padding:0.12em;
+}
+.chronoforums .ui .description.padded.vertical{
+	padding:0.12em 0;
+}
+.chronoforums .ui.button.borderless, .chronoforums .ui.button.borderless:hover{
+	border:none;
+	box-shadow:none !important;
+}
+.chronoforums .ui .author{
+	color: rgba(0, 0, 0, 0.87);
+	font-size: 1em;
+	font-weight: 700;
+}
+
+
+
+
+.chronoforums .ui.comments .comment > .avatar ~ .content{
+	margin-left:4em;
+}
+.chronoforums .ui.comments .comment .avatar{
+	width:3.2em;
+}
+.chronoforums .ui.comments{
+	max-width:none;
+}
+.chronoforums .code-collapsed {
+	max-height:300px;
+	overflow:auto;
+}
+.chronoforums .ui.segment.inline-attachment{
+	margin:3px auto;
+}
+.chronoforums .G2-static + .popup{
+	max-width:400px;
+	min-width:350px !important;
+}
+/*
+.chronoforums .ui.menu.pagination{
+	float:right;
+}
+*/
+.chronoforums .ui.menu.pagination .item{
+	padding:8px;
+}
+.chronoforums .post-details{
+	float:right;
+}
+.chronoforums .menu .item.dropdown.labels{
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+.chronoforums .menu .item.dropdown .text .ui.label{
+	padding:0.3em 0.785714em;
+}
+.chronoforums .ui.label.circular.read + .ui.header{
+	font-weight:normal;
+}
+.chronoforums .ui.divider.posts{
+	margin:0.4em 0;
+}
+.chronoforums .ui.label.trophy{
+	margin:0 3px 0 0 !important;
+}
+.chronoforums .ui.list.topic_details{
+	margin:0 0 0 12px !important;
+}
+.chronoforums .gold{
+	background-color:#FFD700 !important;
+}
+.chronoforums .silver{
+	background-color:#D3D3D3 !important;
+}
+.chronoforums .bronze{
+	background-color:#8C7853 !important;
+}
+/*
+.chronoforums .topic-body .description .ui.label{
+	padding:5px;
+}
+.chronoforums .topic-body .description .metadata {
+	color: rgba(0, 0, 0, 0.4);
+	display: inline-block;
+	font-size: 0.875em;
+	margin-left: 0.5em;
+}
+*/
+.chronoforums form.ui{
+	margin:0;
+}

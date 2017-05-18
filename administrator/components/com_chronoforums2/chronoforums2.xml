@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+	<name>ChronoForums2</name>
+	<creationDate>February 2017</creationDate>
+	<author>Chronoman</author>
+	<copyright>ChronoEngine.com 2017</copyright>
+	<authorEmail>webmaster@chronoengine.com</authorEmail>
+	<authorUrl>www.chronoengine.com</authorUrl>
+	<version>2.0.0</version>
+	<license>GPL</license>
+	<description>The ChronoForums component is a forums extension your Joomla! website with many exciting features.</description>
+	
+	<scriptfile>install.chronoforums2.php</scriptfile>
+	<uninstallfile>uninstall.chronoforums2.php</uninstallfile>
+	<files>
+		<filename>chronoforums2.php</filename>
+		<filename>router.php</filename>
+		<filename>index.html</filename>
+		<folder>views</folder>
+		<folder>chronoforums</folder>
+	</files>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">chronoforums/sql/initial.chronoforums.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">chronoforums/sql/uninstall.chronoforums.sql</file>
+		</sql>
+	</uninstall>	
+	<administration>		
+		<menu img="components/com_chronoforums/cforums.png" link="com_chronoforums2" view="main">COM_CHRONOFORUMS2</menu>
+		<submenu>
+			<menu>COM_CHRONOFORUMS2</menu>
+			<menu act="validateinstall">COM_CHRONOFORUMS2_VALIDATE</menu>
+		</submenu>
+		<files folder="admin">
+			<filename>chronoforums2.php</filename>
+			<filename>cforums.png</filename>
+			<filename>index.html</filename>
+			<folder>chronoforums</folder>
+			<folder>language</folder>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB.com_chronoforums2.sys.ini</language>
+			<language tag="en-GB">language/en-GB.com_chronoforums2.menu.ini</language>
+			<language tag="en-GB">language/en-GB.com_chronoforums2.ini</language>
+		</languages>
+	</administration>
+	<updateservers>
+		<server type="extension" priority="1" name="ChronoForums2 update server">http://www.chronoengine.com/chrono_joomla_updates/chronoforums2.xml</server>
+	</updateservers>
+</extension>

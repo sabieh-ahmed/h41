@@ -1,0 +1,13 @@
+.ui.header, .ui .header{
+	background-color: transparent;
+}
+.ui.form input{
+	height: auto;
+}
+.ui.radio, .ui.checkbox{
+	padding:0;
+}
+label{
+	margin:0;
+	max-width:none;
+}
